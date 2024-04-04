@@ -1,0 +1,48 @@
+.container{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container>*{
+    margin-top: 1rem;
+    
+
+}
+/* .container >* :not(:last-child){
+    margin-right: 1rem;
+} */
+.inputs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 20px;
+    column-gap: 10px;
+}
+input{
+    /* width: 400px; */
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #40A2D8;
+}
+input:focus{
+    outline: none;
+    border: 2px solid #4361ee;
+}
+
+button{
+    background-color: #4361ee;
+    width: 100%;
+    border: none;
+    color: #ded9d9;
+    line-height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.alert{
+    color: red;
+}

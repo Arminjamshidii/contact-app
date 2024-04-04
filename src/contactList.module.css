@@ -1,0 +1,47 @@
+h2{
+    text-align: center;
+    margin-top: 3rem;
+    color: #4361ee;
+}
+
+li:nth-child(odd) {
+    background-color: rgb(220, 231, 245);
+  }
+li{
+    /* background-color: grey; */
+    width:900px;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+p{
+    width: 250px;
+    text-wrap: wrap;
+}
+/* span{
+    display: flex;
+    align-items: center;
+} */
+
+.icon{
+    width: 15px;
+    margin: auto;
+    
+    
+}
+
+
+.trash{
+    color: red;
+    width: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.noContact{
+    color: rgb(105, 104, 104);
+    opacity: 0.9;
+    background-color:rgb(220, 231, 245);
+    padding: 8px;
+}
